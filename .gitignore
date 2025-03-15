@@ -1,0 +1,15 @@
+# Ignore Python bytecode files in backend
+/__pycache__/
+/backend/__pycache__/
+/backend/auth/__pycache__/
+
+
+# Ignore the envJarvis directory
+/envjarvis/
+
+
+.venv
+# Ignore backend cookie.json
+/backend/cookie.json
+# Ignore jarvis.db
+jarvis.db
