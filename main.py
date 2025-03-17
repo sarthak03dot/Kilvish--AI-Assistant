@@ -15,7 +15,7 @@ def start():
     @eel.expose
     def init():
         eel.hideLoader()
-        speak("Welcome to Jarvis")
+        speak("Welcome to Kilvis")
         speak("Ready for Face Authentication")
         flag = recoganize.AuthenticateFace()
         if flag ==1:

@@ -1,0 +1,15 @@
+#pip install package_name
+pygame
+eel
+speechrecognition
+pywhatkit
+gevent
+gevent-websocket
+pyautogui
+pvporcupine                                                               
+pyaudio
+hugchat    
+opencv-python     
+opencv-contrib-python 
+picovoice
+pyttsx3  

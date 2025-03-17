@@ -8,7 +8,7 @@ def speak(text):
     engine = pyttsx3.init('sapi5')
     voices = engine.getProperty('voices')
     # print(voices)
-    engine.setProperty('voice', voices[2].id)
+    engine.setProperty('voice', voices[1].id)
     eel.DisplayMessage(text)
     engine.say(text)
     engine.runAndWait()
@@ -24,7 +24,7 @@ def takecommand():
         eel.DisplayMessage("I'm listening...")
         r.pause_threshold = 1
         r.adjust_for_ambient_noise(source)
-        audio = r.listen(source, 10, 8)
+        audio = r.listen(source, 10, 10)
 
     try:
         print("Recognizing...")

@@ -79,7 +79,30 @@ body {
       }
   }
   
+  /* siri wave */
+
+  #siri-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 170, 255, 0.5); /* Add a glowing effect */
+  }
   
+  #siri-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0, 170, 255, 0.2), transparent 70%);
+    pointer-events: none;
+  }
+
+
   
   
   #TextInput {
@@ -278,4 +301,41 @@ body {
     to {
       transform: rotate(360deg);
     }
+  }
+
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.7;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  #Loader svg circle {
+    animation: pulse 2s infinite ease-in-out;
+  }
+  
+  #Loader svg #animated-rings circle {
+    animation: rotate 5s infinite linear;
+  }
+  
+  #Loader svg #floating-dots circle {
+    animation: pulse 3s infinite ease-in-out;
   }
