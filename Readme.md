@@ -16,7 +16,7 @@ Ensure you have Python **3.13** installed. You also need to install the required
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/sarthak03dot/JarvisAIAssistant.git
+   git clone https://github.com/sarthak03dot/Kilvish-AI-Assistant.git
    cd JarvisAIAssistant
    ```
 2. Create a virtual environment (recommended):
