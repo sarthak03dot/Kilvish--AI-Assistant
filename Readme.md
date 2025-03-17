@@ -3,13 +3,9 @@
 ## Demo Video
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/b146b3e8-a331-4b40-b07b-f81630307a8c" alt="Image" width="60%" />
-</div>
-
-<div align="center">
   <a href="https://drive.google.com/file/d/1uOiL5D3hkbMZlmvu2_n6wXgd1g9feTvv/view?usp=drive_link">
-    <img src="./thumbnail.jpg" alt="Demo Video Thumbnail" width="60%" />
-  </a>
+   <img src="https://github.com/user-attachments/assets/b146b3e8-a331-4b40-b07b-f81630307a8c" alt="Image" width="60%" />
+  </a>  
 </div>
 Jarvis is an AI-powered voice assistant built using Python. It leverages **speech recognition**, **natural language processing (NLP)**, and **automation capabilities** to assist users in performing various tasks through voice commands.
 
